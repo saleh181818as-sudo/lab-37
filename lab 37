@@ -1,0 +1,10 @@
+import numpy as np
+
+a = np.array([1.0, 2.0, 3.0])
+b = np.array([0.5, 1.0, 1.5])
+
+d = np.dot(a, b)
+c = d / (np.linalg.norm(a) * np.linalg.norm(b))
+
+print(d)
+print(c)
